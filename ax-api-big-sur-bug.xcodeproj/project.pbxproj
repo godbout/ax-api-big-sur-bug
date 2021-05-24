@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91FE1923265BCD6F00386CC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE1922265BCD6F00386CC2 /* AppDelegate.swift */; };
+		91FE1925265BCD6F00386CC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE1924265BCD6F00386CC2 /* ContentView.swift */; };
+		91FE1927265BCD7000386CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FE1926265BCD7000386CC2 /* Assets.xcassets */; };
+		91FE192A265BCD7000386CC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FE1929265BCD7000386CC2 /* Preview Assets.xcassets */; };
+		91FE192D265BCD7000386CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FE192B265BCD7000386CC2 /* Main.storyboard */; };
+		91FE1939265BCD7000386CC2 /* ax_api_big_sur_bugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE1938265BCD7000386CC2 /* ax_api_big_sur_bugTests.swift */; };
+		91FE1944265BCD7000386CC2 /* ax_api_big_sur_bugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE1943265BCD7000386CC2 /* ax_api_big_sur_bugUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91FE1935265BCD7000386CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FE1917265BCD6E00386CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FE191E265BCD6E00386CC2;
+			remoteInfo = "ax-api-big-sur-bug";
+		};
+		91FE1940265BCD7000386CC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91FE1917265BCD6E00386CC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91FE191E265BCD6E00386CC2;
+			remoteInfo = "ax-api-big-sur-bug";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91FE191F265BCD6E00386CC2 /* ax-api-big-sur-bug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ax-api-big-sur-bug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FE1922265BCD6F00386CC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91FE1924265BCD6F00386CC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91FE1926265BCD7000386CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FE1929265BCD7000386CC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91FE192C265BCD7000386CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91FE192E265BCD7000386CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FE192F265BCD7000386CC2 /* ax_api_big_sur_bug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ax_api_big_sur_bug.entitlements; sourceTree = "<group>"; };
+		91FE1934265BCD7000386CC2 /* ax-api-big-sur-bugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ax-api-big-sur-bugTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FE1938265BCD7000386CC2 /* ax_api_big_sur_bugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ax_api_big_sur_bugTests.swift; sourceTree = "<group>"; };
+		91FE193A265BCD7000386CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FE193F265BCD7000386CC2 /* ax-api-big-sur-bugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ax-api-big-sur-bugUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FE1943265BCD7000386CC2 /* ax_api_big_sur_bugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ax_api_big_sur_bugUITests.swift; sourceTree = "<group>"; };
+		91FE1945265BCD7000386CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FE191C265BCD6E00386CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE1931265BCD7000386CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE193C265BCD7000386CC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91FE1916265BCD6E00386CC2 = {
+			isa = PBXGroup;
+			children = (
+				91FE1921265BCD6E00386CC2 /* ax-api-big-sur-bug */,
+				91FE1937265BCD7000386CC2 /* ax-api-big-sur-bugTests */,
+				91FE1942265BCD7000386CC2 /* ax-api-big-sur-bugUITests */,
+				91FE1920265BCD6E00386CC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FE1920265BCD6E00386CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FE191F265BCD6E00386CC2 /* ax-api-big-sur-bug.app */,
+				91FE1934265BCD7000386CC2 /* ax-api-big-sur-bugTests.xctest */,
+				91FE193F265BCD7000386CC2 /* ax-api-big-sur-bugUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FE1921265BCD6E00386CC2 /* ax-api-big-sur-bug */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1922265BCD6F00386CC2 /* AppDelegate.swift */,
+				91FE1924265BCD6F00386CC2 /* ContentView.swift */,
+				91FE1926265BCD7000386CC2 /* Assets.xcassets */,
+				91FE192B265BCD7000386CC2 /* Main.storyboard */,
+				91FE192E265BCD7000386CC2 /* Info.plist */,
+				91FE192F265BCD7000386CC2 /* ax_api_big_sur_bug.entitlements */,
+				91FE1928265BCD7000386CC2 /* Preview Content */,
+			);
+			path = "ax-api-big-sur-bug";
+			sourceTree = "<group>";
+		};
+		91FE1928265BCD7000386CC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1929265BCD7000386CC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91FE1937265BCD7000386CC2 /* ax-api-big-sur-bugTests */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1938265BCD7000386CC2 /* ax_api_big_sur_bugTests.swift */,
+				91FE193A265BCD7000386CC2 /* Info.plist */,
+			);
+			path = "ax-api-big-sur-bugTests";
+			sourceTree = "<group>";
+		};
+		91FE1942265BCD7000386CC2 /* ax-api-big-sur-bugUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1943265BCD7000386CC2 /* ax_api_big_sur_bugUITests.swift */,
+				91FE1945265BCD7000386CC2 /* Info.plist */,
+			);
+			path = "ax-api-big-sur-bugUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FE191E265BCD6E00386CC2 /* ax-api-big-sur-bug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FE1948265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bug" */;
+			buildPhases = (
+				91FE191B265BCD6E00386CC2 /* Sources */,
+				91FE191C265BCD6E00386CC2 /* Frameworks */,
+				91FE191D265BCD6E00386CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ax-api-big-sur-bug";
+			productName = "ax-api-big-sur-bug";
+			productReference = 91FE191F265BCD6E00386CC2 /* ax-api-big-sur-bug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91FE1933265BCD7000386CC2 /* ax-api-big-sur-bugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FE194B265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bugTests" */;
+			buildPhases = (
+				91FE1930265BCD7000386CC2 /* Sources */,
+				91FE1931265BCD7000386CC2 /* Frameworks */,
+				91FE1932265BCD7000386CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FE1936265BCD7000386CC2 /* PBXTargetDependency */,
+			);
+			name = "ax-api-big-sur-bugTests";
+			productName = "ax-api-big-sur-bugTests";
+			productReference = 91FE1934265BCD7000386CC2 /* ax-api-big-sur-bugTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91FE193E265BCD7000386CC2 /* ax-api-big-sur-bugUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FE194E265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bugUITests" */;
+			buildPhases = (
+				91FE193B265BCD7000386CC2 /* Sources */,
+				91FE193C265BCD7000386CC2 /* Frameworks */,
+				91FE193D265BCD7000386CC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91FE1941265BCD7000386CC2 /* PBXTargetDependency */,
+			);
+			name = "ax-api-big-sur-bugUITests";
+			productName = "ax-api-big-sur-bugUITests";
+			productReference = 91FE193F265BCD7000386CC2 /* ax-api-big-sur-bugUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FE1917265BCD6E00386CC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					91FE191E265BCD6E00386CC2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					91FE1933265BCD7000386CC2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 91FE191E265BCD6E00386CC2;
+					};
+					91FE193E265BCD7000386CC2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 91FE191E265BCD6E00386CC2;
+					};
+				};
+			};
+			buildConfigurationList = 91FE191A265BCD6E00386CC2 /* Build configuration list for PBXProject "ax-api-big-sur-bug" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FE1916265BCD6E00386CC2;
+			productRefGroup = 91FE1920265BCD6E00386CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FE191E265BCD6E00386CC2 /* ax-api-big-sur-bug */,
+				91FE1933265BCD7000386CC2 /* ax-api-big-sur-bugTests */,
+				91FE193E265BCD7000386CC2 /* ax-api-big-sur-bugUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FE191D265BCD6E00386CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE192D265BCD7000386CC2 /* Main.storyboard in Resources */,
+				91FE192A265BCD7000386CC2 /* Preview Assets.xcassets in Resources */,
+				91FE1927265BCD7000386CC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE1932265BCD7000386CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE193D265BCD7000386CC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FE191B265BCD6E00386CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE1925265BCD6F00386CC2 /* ContentView.swift in Sources */,
+				91FE1923265BCD6F00386CC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE1930265BCD7000386CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE1939265BCD7000386CC2 /* ax_api_big_sur_bugTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FE193B265BCD7000386CC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FE1944265BCD7000386CC2 /* ax_api_big_sur_bugUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91FE1936265BCD7000386CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FE191E265BCD6E00386CC2 /* ax-api-big-sur-bug */;
+			targetProxy = 91FE1935265BCD7000386CC2 /* PBXContainerItemProxy */;
+		};
+		91FE1941265BCD7000386CC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91FE191E265BCD6E00386CC2 /* ax-api-big-sur-bug */;
+			targetProxy = 91FE1940265BCD7000386CC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91FE192B265BCD7000386CC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91FE192C265BCD7000386CC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91FE1946265BCD7000386CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FE1947265BCD7000386CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		91FE1949265BCD7000386CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ax-api-big-sur-bug/ax_api_big_sur_bug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ax-api-big-sur-bug/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ax-api-big-sur-bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		91FE194A265BCD7000386CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ax-api-big-sur-bug/ax_api_big_sur_bug.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ax-api-big-sur-bug/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ax-api-big-sur-bug/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bug";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		91FE194C265BCD7000386CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				INFOPLIST_FILE = "ax-api-big-sur-bugTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ax-api-big-sur-bug.app/Contents/MacOS/ax-api-big-sur-bug";
+			};
+			name = Debug;
+		};
+		91FE194D265BCD7000386CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				INFOPLIST_FILE = "ax-api-big-sur-bugTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bugTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ax-api-big-sur-bug.app/Contents/MacOS/ax-api-big-sur-bug";
+			};
+			name = Release;
+		};
+		91FE194F265BCD7000386CC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				INFOPLIST_FILE = "ax-api-big-sur-bugUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ax-api-big-sur-bug";
+			};
+			name = Debug;
+		};
+		91FE1950265BCD7000386CC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ZX49WKA8QN;
+				INFOPLIST_FILE = "ax-api-big-sur-bugUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mo.com.sleeplessmind.ax-api-big-sur-bugUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ax-api-big-sur-bug";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FE191A265BCD6E00386CC2 /* Build configuration list for PBXProject "ax-api-big-sur-bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FE1946265BCD7000386CC2 /* Debug */,
+				91FE1947265BCD7000386CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FE1948265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FE1949265BCD7000386CC2 /* Debug */,
+				91FE194A265BCD7000386CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FE194B265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FE194C265BCD7000386CC2 /* Debug */,
+				91FE194D265BCD7000386CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FE194E265BCD7000386CC2 /* Build configuration list for PBXNativeTarget "ax-api-big-sur-bugUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FE194F265BCD7000386CC2 /* Debug */,
+				91FE1950265BCD7000386CC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91FE1917265BCD6E00386CC2 /* Project object */;
+}
